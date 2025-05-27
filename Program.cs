@@ -1,8 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
 
-int number = 1;
-while (number <= 100) {
-    Console.WriteLine(number);
+int number = 1; 
+while (number <= 100 ) {
     number++;
+
+    if (number % 3 == 0)
+    {
+        Console.WriteLine("Fizz");
+    } else
+    {
+        Console.WriteLine(number);
+    }
 }
