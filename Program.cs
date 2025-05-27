@@ -2,7 +2,7 @@
 Console.WriteLine("Hello, World!");
 
 int number = 1;
-while (number < 100) {
+while (number <= 100) {
+    Console.WriteLine(number);
     number++;
-    Console.WriteLine(number);   
 }
